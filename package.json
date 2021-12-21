@@ -1,0 +1,27 @@
+{
+  "name": "expenses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LailZo/expenses.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LailZo/expenses/issues"
+  },
+  "homepage": "https://github.com/LailZo/expenses#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.2",
+    "request": "^2.88.2"
+  }
+}
